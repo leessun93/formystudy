@@ -3,6 +3,11 @@
 
 <mapper namespace="user">
 	
-	
+	<insert id="saveUser" parameterType="String">
+		<![CDATA[
+			insert into politic_users
+			values(seq_userNo.nextval,#{userId},#{userPassword},#{userName},#{userPersnalNo},#{userHp},#{userGender},sysdate,#{userSide})
+		]]>
+	</insert>
 
 </mapper>

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* 초기화 */
+@font-face {
+    font-family: 'main';
+    src: url(../fonts/BinggraeⅡ-Bold.ttf);
+}
+html {
+    display: flex;
+    justify-content: center;
+}
+#wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1280px;
+    max-width: 2560px;
+    overflow: hidden;
+}
+
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;} 
+
+ul, ol {list-style: none;}
+a:link {text-decoration: none; color: #000000;}
+a:visited {text-decoration: none; color: #000000;}
+a:hover {text-decoration: none; color: #000000;}
+
+*{ box-sizing: border-box; }
+/* 초기화 2 */
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr5TRA.woff2) format('woff2');
+}
+/* reset */
+body{font-family:'Noto Sans KR','NEXONLv1Gothic','Malgun Gothic',Dotum,sans-serif;background-color:#000}
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,button,select,input,textarea,th,td{margin: 0;padding: 0;}
+img{border:none;vertical-align:top}
+ul li,ol li{list-style:none}
+fieldset{border:none}
+table{border-collapse:collapse}
+caption{display:none}
+img,fieldset,button{border:0;padding:0}
+button{background:none}
+input,select{vertical-align:middle}
+legend{width:0;height:0;font-size:0;position:absolute;overflow:hidden}
+a{text-decoration:none;cursor:pointer}
+button,input[type="button"],input[type="submit"],input[type="image"]{cursor:pointer;outline:none;font-family:inherit}
+input,textarea,button,a,select{outline:none}
+.gnbWrapper, .global_wrap{min-width:1280px !important}
+/* 메인 로그인창 */
+.container{
+    background-image: url(../img/war-469503_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enterBox{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.height800{
+    height:800;
+}
+.height120{
+    height: 120px;
+}
+.height60{
+    height:60px;
+}
+.paddingAuto{
+    padding: 15px 15px;
+}
+.paddingTop350{
+    padding-top: 350px;
+}

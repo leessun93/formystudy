@@ -35,7 +35,7 @@ a:hover {text-decoration: none; color: #000000;}
     src: url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr5TRA.woff2) format('woff2');
 }
 /* reset */
-body{font-family:'Noto Sans KR','NEXONLv1Gothic','Malgun Gothic',Dotum,sans-serif;background-color:#000}
+body{font-family:'Noto Sans KR','NEXONLv1Gothic','Malgun Gothic',Dotum,sans-serif;}
 body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,button,select,input,textarea,th,td{margin: 0;padding: 0;}
 img{border:none;vertical-align:top}
 ul li,ol li{list-style:none}
@@ -50,17 +50,7 @@ a{text-decoration:none;cursor:pointer}
 button,input[type="button"],input[type="submit"],input[type="image"]{cursor:pointer;outline:none;font-family:inherit}
 input,textarea,button,a,select{outline:none}
 .gnbWrapper, .global_wrap{min-width:1280px !important}
-/* 메인 로그인창 */
-.container{
-    background-image: url(../img/war-469503_1920.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.enterBox{
-    width: 500px;
-    margin: auto;
-    text-align: center;
-}
+/* 공통 */
 .height800{
     height:800;
 }
@@ -75,4 +65,31 @@ input,textarea,button,a,select{outline:none}
 }
 .paddingTop350{
     padding-top: 350px;
+}
+.textcenter{
+    text-align: center;
+}
+/* 메인 로그인창 */
+#loginBody{
+    background-color:#000;
+}
+.loginimg{
+    background-image: url(../img/war-469503_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enterBox{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* 회원가입창 */
+.signUpBox{
+    width: 700px;
+    margin: auto;
+    text-align: left;
+    /* 임시 */
+    border: 1px solid #000;
 }

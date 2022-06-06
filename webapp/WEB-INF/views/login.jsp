@@ -2,15 +2,15 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-    <link rel="stylesheet" href="../assets/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="../assets/css/main.css">
-</head>
-    <body>
+	<head>
+	<meta charset="UTF-8">
+	<title>JinBosu_Login</title>
+	    <link rel="stylesheet" href="../assets/bootstrap/bootstrap.css">
+	    <link rel="stylesheet" href="../assets/css/main.css">
+	</head>
+   <body id="loginBody">
         <div id="wrap">
-            <div class="container">
+            <div class="container loginimg">
 
              
                 <!-- content -->
@@ -39,7 +39,7 @@
 
                             <div class="row">
                                 <div class="col-xs-4 height60 paddingAuto">
-                                    <a href="" class="paddingAuto">회원가입</a>
+                                    <a href="${pageContext.request.contextPath}/main/signUp" class="paddingAuto">회원가입</a>
                                 </div>
                                 <div class="col-xs-4 height60 paddingAuto">
                                     <a href="">아이디찾기</a>

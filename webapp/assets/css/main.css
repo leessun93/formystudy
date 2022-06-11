@@ -93,3 +93,26 @@ input,textarea,button,a,select{outline:none}
     /* 임시 */
     border: 1px solid #000;
 }
+/* 메인 페이지 */
+.charDoor{
+    display:inline-block;
+    width:555px;
+}
+.eachSide{
+    height: 600px;
+}
+table, th, td{
+    border: 1px solid #000;
+}
+table{
+    width: 100%;
+}
+.th1{
+    width: 60px;
+}
+.th2{
+    width: 360px;
+}
+.th3{
+    width: 100px;
+}

@@ -9,7 +9,7 @@ import com.javaex.service.UserService;
 import com.javaex.vo.UserVo;
 
 @Controller
-@RequestMapping("/main")
+@RequestMapping("/ready")
 public class UserController {
 	
 	@Autowired

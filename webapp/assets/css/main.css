@@ -116,3 +116,16 @@ table{
 .th3{
     width: 100px;
 }
+
+/* 공통 nav영역 */
+.navArea{
+    width: 100%;
+}
+
+.navList{
+    list-style: none;
+}
+.navList>li{
+    margin: 10px 50px;
+    float: left;
+}

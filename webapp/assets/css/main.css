@@ -69,6 +69,9 @@ input,textarea,button,a,select{outline:none}
 .textcenter{
     text-align: center;
 }
+.widthFull{
+    width: 100%;
+}
 /* 메인 로그인창 */
 #loginBody{
     background-color:#000;
@@ -116,7 +119,6 @@ table{
 .th3{
     width: 100px;
 }
-
 /* 공통 nav영역 */
 .navArea{
     width: 100%;
@@ -128,4 +130,8 @@ table{
 .navList>li{
     margin: 10px 50px;
     float: left;
+}
+/* 게시판 작성페이지 */
+#FBoardContent{
+    height:300px;
 }

@@ -5,8 +5,8 @@
     <head>
         <meta charset="UTF-8">
         <title>JinBoSu</title>
-        <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.css">
-        <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/main.css">
     </head>
     <body>
         <div class="wrap">
@@ -34,10 +34,16 @@
                 <!-- /nav -->
                 <!-- content -->
                 <div class="row">
+                    <!-- 어사이드부분 -->
                     <div class="col-xs-2">
-                        <!-- 어사이드부분 -->
+                        <div id="aside">
+                            <ul>
+                                <li><a>인기 게시글</a></li>
+                                <li><a>일반 게시글</a></li>
+                            </ul>
+                        </div>
                     </div>
-
+                    <!-- /어사이드부분 -->
                     <div class="col-xs-10">
                         <table>
                             <thead>
@@ -97,7 +103,7 @@
                 </div>
                 <!-- 검색부분 -->
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-xs-11">
                         <select>
                             <option>제목</option>
                             <option>작성자</option>
@@ -105,6 +111,9 @@
                         </select>
                         <input type="text">
                         <a>검색</a>
+                    </div>
+                    <div class="col-xs-1">
+                        <a>글쓰기</a>
                     </div>
                 </div>
                 <!-- /content -->

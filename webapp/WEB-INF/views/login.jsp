@@ -5,8 +5,8 @@
 	<head>
 	<meta charset="UTF-8">
 	<title>JinBosu_Login</title>
-	    <link rel="stylesheet" href="../assets/bootstrap/bootstrap.css">
-	    <link rel="stylesheet" href="../assets/css/main.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/main.css">
 	</head>
    <body id="loginBody">
         <div id="wrap">
